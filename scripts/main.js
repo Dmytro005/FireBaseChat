@@ -127,9 +127,9 @@ FriendlyChat.prototype.signOut = function() {
 // Triggers when the auth state change for instance when the user signs-in or signs-out.
 FriendlyChat.prototype.onAuthStateChanged = function(user) {
   if (user) { // User is signed in!
-    // Get profile pic and user's name from the Firebase user object.
-    var profilePicUrl = null;   // TODO(DEVELOPER): Get profile pic.
-    var userName = null;        // TODO(DEVELOPER): Get user's name.
+    // Get profile pic and user's name from the Firebase user object.    
+    var profilePicUrl = user.photoURL; // Only change these two lines!
+    var userName = user.displayName;   // Only change these two lines!
 
     // Set the user's profile pic and name.
     this.userPic.style.backgroundImage = 'url(' + profilePicUrl + ')';
@@ -162,6 +162,10 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
 // Returns true if user is signed-in. Otherwise false and displays a message.
 FriendlyChat.prototype.checkSignedInWithMessage = function() {
   /* TODO(DEVELOPER): Check if user is signed-in Firebase. */
+  // Return true if the user is signed in Firebase
+  if (this.auth.currentUser) {
+    return true;
+  }
 
   // Display a message to the user using a Toast.
   var data = {

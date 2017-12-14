@@ -1,41 +1,32 @@
-[debug] [2017-12-14T18:05:18.676Z] ----------------------------------------------------------------------
-[debug] [2017-12-14T18:05:18.676Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-12-14T18:05:18.676Z] CLI Version:   3.16.0
-[debug] [2017-12-14T18:05:18.676Z] Platform:      win32
-[debug] [2017-12-14T18:05:18.676Z] Node Version:  v8.9.1
-[debug] [2017-12-14T18:05:18.676Z] Time:          Thu Dec 14 2017 20:05:18 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:18.676Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T18:31:14.878Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T18:31:14.893Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-14T18:31:14.893Z] CLI Version:   3.16.0
+[debug] [2017-12-14T18:31:14.893Z] Platform:      win32
+[debug] [2017-12-14T18:31:14.893Z] Node Version:  v8.9.1
+[debug] [2017-12-14T18:31:14.893Z] Time:          Thu Dec 14 2017 20:31:14 GMT+0200 (Фінляндія (зима))
+[debug] [2017-12-14T18:31:14.893Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-12-14T18:05:18.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-12-14T18:05:18.692Z] > authorizing via signed-in user
-[debug] [2017-12-14T18:05:18.707Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-12-14T18:05:18.707Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/yXf--9v-hVdGUypIRNvnG_2_1uXl602Nu4ZO8NeHS25pZGD9gaZylNNuvqQgli5u',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Thu Dec 14 2017 20:05:18 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:18.974Z] <<< HTTP RESPONSE 200
-[debug] [2017-12-14T18:05:18.989Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-codelab-5dc36  
+[debug] [2017-12-14T18:31:14.909Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T18:31:14.909Z] > authorizing via signed-in user
+[debug] [2017-12-14T18:31:14.915Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-codelab-5dc36  
   
- Thu Dec 14 2017 20:05:18 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:19.874Z] <<< HTTP RESPONSE 200
-[debug] [2017-12-14T18:05:19.874Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-codelab-5dc36/tokens  
+ Thu Dec 14 2017 20:31:14 GMT+0200 (Фінляндія (зима))
+[debug] [2017-12-14T18:31:15.989Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T18:31:15.989Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-codelab-5dc36/tokens  
   
- Thu Dec 14 2017 20:05:19 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:20.781Z] <<< HTTP RESPONSE 200
+ Thu Dec 14 2017 20:31:15 GMT+0200 (Фінляндія (зима))
+[debug] [2017-12-14T18:31:16.772Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\!!!Dima\Projects\Web\Learning\js\FireBase\commit_firebase\friendlychat-web\web-start'...
 [info] 
-[debug] [2017-12-14T18:05:20.796Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-codelab-5dc36  
+[debug] [2017-12-14T18:31:16.787Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-codelab-5dc36  
   
- Thu Dec 14 2017 20:05:20 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:21.813Z] <<< HTTP RESPONSE 200
-[debug] [2017-12-14T18:05:21.813Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/131246713728/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 20:31:16 GMT+0200 (Фінляндія (зима))
+[debug] [2017-12-14T18:31:17.805Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T18:31:17.805Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/131246713728/clients/_:getWebAppConfig  
   
- Thu Dec 14 2017 20:05:21 GMT+0200 (Фінляндія (зима))
-[debug] [2017-12-14T18:05:22.467Z] <<< HTTP RESPONSE 200
+ Thu Dec 14 2017 20:31:17 GMT+0200 (Фінляндія (зима))
+[debug] [2017-12-14T18:31:18.618Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
